@@ -353,7 +353,6 @@ footer {
 }
 
 .contact-paragraph {
-  font-size: 18px;
   color: #ebebff;
   margin: 10px 0;
   font-family: Poppins;
@@ -386,4 +385,26 @@ textarea {
   width: 140px;
   height: 48px;
   border: none;
+}
+
+@media only screen and (max-width: 600px) {
+ footer{
+  border-top-left-radius: 100px;
+ }
+
+ .contact-form{
+   width: 100%;
+ }
+
+ .contact-paragraph{
+   font-size: 14px;
+ }
+
+ .contact-header{
+   font-size: 30px;
+ }
+
+ .contact-form label{
+   width: 100%;
+ }
 }
