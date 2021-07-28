@@ -388,23 +388,23 @@ textarea {
 }
 
 @media only screen and (max-width: 600px) {
- footer{
-  border-top-left-radius: 100px;
- }
+  footer {
+    border-top-left-radius: 100px;
+  }
 
- .contact-form{
-   width: 100%;
- }
+  .contact-form {
+    width: 100%;
+  }
 
- .contact-paragraph{
-   font-size: 14px;
- }
+  .contact-paragraph {
+    font-size: 14px;
+  }
 
- .contact-header{
-   font-size: 30px;
- }
+  .contact-header {
+    font-size: 30px;
+  }
 
- .contact-form label{
-   width: 100%;
- }
+  .contact-form label {
+    width: 100%;
+  }
 }
