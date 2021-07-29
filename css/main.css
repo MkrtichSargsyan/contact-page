@@ -329,18 +329,16 @@ li {
 /* Footer - Contact form */
 
 footer {
-  margin: 70px 0 0;
   display: flex;
   justify-content: center;
   padding: 70px;
-  background-color: #6070ff;
-  border-top-left-radius: 200px;
+  background-color: gray;
 }
 
 .contact-form {
   outline: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 70%;
 }
@@ -387,9 +385,6 @@ textarea {
 }
 
 @media only screen and (max-width: 600px) {
-  footer {
-    border-top-left-radius: 100px;
-  }
 
   .contact-form {
     width: 100%;
