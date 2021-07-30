@@ -331,7 +331,7 @@ li {
 footer {
   display: flex;
   justify-content: center;
-  padding: 70px;
+  padding: 80px;
   background-color: gray;
 }
 
